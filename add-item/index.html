@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gift it - Add Item</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/mobile.css">
+  </head>
+  <body>
+
+      <main>
+        <div class="list-header cf">
+          <div class="container">
+            <a href="../list/index.html"><h2>My Birthday List</h2></a>
+            <div class="action-btns">
+              <a href="mailto:someone@example.com?Subject=This%20is%20my%20list" class="share-list"><img src="../assets/images/email.png" alt="Email Icon"></a>
+              <a href="../add-website/index.html" class="add-item"><img src="../assets/images/plus.png" alt="Add Item Icon"></a>
+            </div>
+          </div>
+        </div>
+        
+        <p class="instructions">Choose the item you wish to add</p>
+        
+        <div class="pictures cf">
+          <div class="inside-pictures cf">
+            <img src="../assets/images/previous.png" class="previous">
+            <img src="../assets/images/towels/white-towel.jpg" alt="Towel Picture" class="towel-pic">
+            <img src="../assets/images/next.png" class="next">
+          </div>
+        </div>
+
+        <form action="../list/index.html" class="add-item-form">
+          <fieldset>
+            <input type="text" name="item-name-form" id="item-name-form" class="item-name-form" placeholder="Item Name">
+          </fieldset>
+          <fieldset>
+            <input type="text" name="price-form" id="price-form" class="price-form" placeholder="Price">
+          </fieldset>
+          <fieldset class="submit-container">
+            <input type="submit" value="Add" class="submit">
+          </fieldset>
+        </form>
+      </main>
+
+  </body>
+</html>

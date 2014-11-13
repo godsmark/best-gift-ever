@@ -1,0 +1,183 @@
+/* Media queries go here */
+
+@media only screen and (max-width: 1090px) {
+	.product-image {
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	
+	h1 {
+		font-size: 3em;
+		padding-top: 1em;
+	}
+
+	.list-name-form {
+		width: 100%;
+		padding: 10px 0px;
+	}
+
+	.list-header {
+		padding: 2% 0%;
+	}
+
+	h2 {
+		font-size: 1.6em;
+	}
+
+	.product-image {
+		width: 200px;
+	}
+
+	.item-details {
+		width: 170px;
+		margin-top: 30px;
+	}
+
+	.delete {
+		background: #636363;
+		padding: 8%;
+	}
+
+	.buy {
+		background: #F27C2A;
+		padding: 8% 13%;
+	}
+
+	.item-name {
+		font-size: 1.1em;
+	}
+
+	.website {
+		font-size: .5em;
+	}
+
+	.price {
+		font-size: 1em;
+	}
+
+	/* fake carousel */
+	.next, .previous {
+		padding-bottom: 60px;
+		width: 50px;
+	}
+
+	.towel-pic {
+		width: 230px;
+		margin: 0px 30px;
+	}
+	/* end fake carousel */
+
+}
+
+@media only screen and (max-width: 810px) {
+	h2 {
+		font-size: 1.4em;
+	}
+
+	.share-list img {
+		width: 25px;
+	}
+
+	.add-item img {
+		width: 20px;
+	}
+
+	.pictures {
+		margin-top: 15px;
+	}
+
+	/* fake carousel */
+	.next, .previous {
+		padding-bottom: 60px;
+		width: 40px;
+	}
+
+	.towel-pic {
+		width: 200px;
+		margin: 0px 20px;
+	}
+	/* end fake carousel */
+}
+
+@media only screen and (max-width: 500px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	input[type=text] {
+		border-radius: 2px;
+	}
+
+	.share-list img {
+		width: 25px;
+	}
+
+	.add-item img {
+		width: 20px;
+	}
+
+	.zero-state {
+		font-size: 1.3em;
+	}
+
+	.pictures {
+		border-radius: 2px;
+	}
+
+	.products {
+		width: 100%;
+	}
+
+	.product-image {
+		width: 170px;
+		margin-top: 20px;
+	}
+
+	.product-container {
+		margin: 5px 0px;
+		border-radius: 2px;
+	}
+
+	/* fake carousel */
+	.next, .previous {
+		padding-bottom: 60px;
+		width: 30px;
+	}
+
+	.towel-pic {
+		width: 150px;
+		margin: 0px 10px;
+	}
+	/* end fake carousel */
+
+	.numbers {
+		font-size: 1.3em;
+	}
+
+	.delete, .buy {
+		font-size: .9em;
+	}
+
+	.delete {
+		padding: 8%;
+	}
+
+	.buy {
+		padding: 8% 13%;
+	}
+
+	.add-item-form {
+		margin-top: 5px;
+	}
+
+	.instructions {
+		margin: 20px auto 0px auto;
+	}
+
+}
