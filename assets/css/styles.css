@@ -112,7 +112,7 @@ h1 {
 }
 
 .list-header {
-	padding: 2% 0%;
+	padding: 2% 0.5%;
 	background: #585858;
 }
 
@@ -133,13 +133,17 @@ h2 {
 	opacity: .4;
 }
 
-.share-list, .add-item {
-	color: #FFFFFF;
+.share-list img {
+	width: 100px;
 }
 
-.share-list img {
-	width: 30px;
-	padding-right: 20px;
+.add-item img {
+	width: 46px;
+}
+
+.share-list img:hover, 
+.add-item img:hover {
+	opacity: .6;
 }
 
 .instructions {
@@ -172,15 +176,12 @@ h2 {
 
 .add-item-form {
 	clear: both;
+	margin-bottom: 70px;
 }
 
 .list-name-form, .item-name-form, .website-name-form, 
 .price-form, .recipient, .email, .comments  {
 	width: 100%; 
-}
-
-.add-item img {
-	width: 25px;
 }
 
 .add {
@@ -209,6 +210,10 @@ h2 {
 
 .products:nth-child(even) .product-container {
 	margin-right: 0%;
+}
+
+.products:last-child {
+	margin-bottom: 60px;
 }
 
 .product-image {
@@ -242,7 +247,7 @@ h2 {
 }
 
 .website {
-	font-size: .5em;
+	font-size: .7em;
 }
 
 .website:hover {
