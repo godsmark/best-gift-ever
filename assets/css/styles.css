@@ -46,6 +46,10 @@ input:focus {
 	border: 0;
 }
 
+.password {
+	margin-top: .7em;
+}
+
 input[type=text] {
 	font-size: 1em;
 	font-family: 'Roboto', sans-serif;
