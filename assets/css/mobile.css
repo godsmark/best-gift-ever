@@ -77,10 +77,6 @@
 		padding-top: 5px;
 	}
 
-	.pictures {
-		margin-top: 15px;
-	}
-
 	/* fake carousel */
 	.next, .previous {
 		padding-bottom: 60px;
@@ -98,7 +94,7 @@
 	}
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
 	h1 {
 		font-size: 2em;
 	}
