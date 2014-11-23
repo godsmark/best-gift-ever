@@ -38,7 +38,7 @@ a {
 input {
 	outline: 0;
 	border: 0;
-	margin-top: 3px;
+	margin-top: .2em;
 }
 
 input:focus {
@@ -50,16 +50,16 @@ input[type=text] {
 	font-size: 1em;
 	font-family: 'Roboto', sans-serif;
 	border-radius: 10px;
-	padding: 10px 0px 10px 5px;
+	padding: .7em 0em .7em .2em;
 }
 
 label {
-	padding: 5px;
-	font-size: 13px;
+	padding: .2em;
+	font-size: .8em;
 }
 
 fieldset {
-	margin: 15px 0px;
+	margin: 1em 0em;
 }
 
 input[type=submit] {
@@ -75,7 +75,7 @@ h1 {
 
 .container {
 	max-width: 1200px; 
-	margin: 0px auto;
+	margin: 0 auto;
 }
 
 .index-form, .add-item-form, 
@@ -86,7 +86,7 @@ h1 {
 
 .index-form, .add-item,
 .add-website-form {
-	padding-top: 100px;
+	padding-top: 7em;
 }
 
 .submit-container {
@@ -104,7 +104,7 @@ h1 {
 .submit, .submit2 {
 	color: #FFFFFF;
 	background: #F27C2A;
-	padding: 12px;
+	padding: .9em;
 	font-size: .9em;
 	letter-spacing: 1px;
 	font-weight: 200;
@@ -121,11 +121,12 @@ h1 {
 }
 
 .submit2 {
-	background: #585858
+	background: #585858;
+	margin-right: 2em;
 }
 
 .list-header {
-	padding: 2% 0.5%;
+	padding: 1% 0.5%;
 	background: #585858;
 }
 
@@ -133,6 +134,7 @@ h2 {
 	float: left;
 	font-size: 1.7em;
 	color: #FFFFFF;
+	padding-top: .2em;
 }
 
 .action-btns {
@@ -141,7 +143,7 @@ h2 {
 
 .zero-state {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 7em;
 	font-size: 1.6em;
 	opacity: .4;
 }
@@ -160,14 +162,14 @@ h2 {
 }
 
 .instructions {
-	margin: 50px auto 0px auto;
+	margin: 3.5em auto 2em auto;
 	font-size: 1em;
 }
 
 .instructions-edit {
-	margin: 40px auto 3px; auto;
+	margin: 3em auto .1em auto;
 	display: block;
-	font-size: 13px;
+	font-size: .8em;
 }
 
 /* fake carousel */
@@ -177,14 +179,14 @@ h2 {
 }
 
 .towel-pic {
-	margin: 0px 30px;
+	margin: 0 30px;
 }
 
 .pictures {
 	max-width: 800px;
-	margin: 0px auto;
+	margin: 0 auto;
 	background: #FFFFFF;
-	border-radius: 10px;
+	border-radius: 1em;
 }
 
 .inside-pictures {
@@ -195,18 +197,12 @@ h2 {
 
 .add-item-form {
 	clear: both;
-	margin-bottom: 70px;
+	margin-bottom: 3.5em;
 }
 
 .list-name-form, .item-name-form, .website-name-form, 
 .price-form, .recipient, .email, .comments  {
 	width: 100%; 
-}
-
-.add {
-	background: #DEDEDE;
-	padding: 2px 5px;
-	margin-left: 5px;
 }
 
 .submit-container {
@@ -221,9 +217,9 @@ h2 {
 .product-container {
 	background: #FFFFFF;
 	position: relative;
-	padding: 10px;
-	margin-top: 10px;
-	border-radius: 10px;
+	padding: .6em;
+	margin-top: 1em;
+	border-radius: 1em;
 	margin-right: 2%;
 }
 
@@ -232,7 +228,7 @@ h2 {
 }
 
 .products:last-child {
-	margin-bottom: 60px;
+	margin-bottom: 5em;
 }
 
 .product-image {
@@ -248,17 +244,17 @@ h2 {
 }
 
 .item-details {
-	width: 170px;
-	padding: 15px;
+	width: 9em; 
+	padding: 1em;
 	float: left;
 	display: block;
-	margin-top: 50px;
+	margin-top: 5em;
 }
 
 .item-name, .website, .price {
 	font-weight: 500;
 	display: block;
-	padding: 4px 0px;
+	padding: .2em 0;
 }
 
 .item-name {
@@ -281,32 +277,31 @@ h2 {
 	color: #585858;
 }
 
-.delete-buy {
+.edit-buy {
 	width: 100%;
 	margin: 5% auto;
 }
 
-.delete, .buy {
+.edit, .buy {
 	font-size: 1em;
 	display: block;
 	float: left;
 	margin-right: 2%;
-	border-radius: 10px;
+	border-radius: .8em;
 	color: #FFFFFF;
+	padding: 10% 14%;
 }
 
-.delete:hover, .buy:hover {
+.edit:hover, .buy:hover {
 	opacity: .8;
 }
 
-.delete {
+.edit {
 	background: #7C7C7C;
-	padding: 10%;
 }
 
 .buy {
 	background: #F27C2A;
-	padding: 10% 15%;
 }
 
 

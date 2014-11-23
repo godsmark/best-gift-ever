@@ -4,10 +4,14 @@
 	.product-image {
 		width: 250px;
 	}
+
+	.item-details {
+		width: 9em;
+		margin-top: 3em;
+	}
 }
 
 @media only screen and (max-width: 950px) {
-	
 	h1 {
 		font-size: 3em;
 		padding-top: 1em;
@@ -15,34 +19,14 @@
 
 	.list-name-form {
 		width: 100%;
-		padding: 10px 0px;
 	}
 
 	.list-header {
-		padding: 2% 1%;
-	}
-
-	h2 {
-		font-size: 1.6em;
+		padding: 1%;
 	}
 
 	.product-image {
 		width: 200px;
-	}
-
-	.item-details {
-		width: 170px;
-		margin-top: 30px;
-	}
-
-	.delete {
-		background: #636363;
-		padding: 8%;
-	}
-
-	.buy {
-		background: #F27C2A;
-		padding: 8% 13%;
 	}
 
 	.item-name {
@@ -59,38 +43,33 @@
 
 	/* fake carousel */
 	.next, .previous {
-		padding-bottom: 60px;
+		padding-bottom: 5em;
 		width: 50px;
 	}
 
 	.towel-pic {
 		width: 230px;
-		margin: 0px 30px;
+		margin: 0 1.5em;
 	}
 	/* end fake carousel */
 
 }
 
 @media only screen and (max-width: 810px) {
-	h2 {
-		font-size: 1.4em;
-		padding-top: 5px;
-	}
-
 	/* fake carousel */
 	.next, .previous {
-		padding-bottom: 60px;
+		padding-bottom: 4.3em;
 		width: 40px;
 	}
 
 	.towel-pic {
 		width: 200px;
-		margin: 0px 20px;
+		margin: 0 1em;
 	}
 	/* end fake carousel */
 
 	.instructions {
-		padding-left: 1%;
+		margin: 6% 0% 3% 1%;
 	}
 }
 
@@ -101,11 +80,11 @@
 
 	h2 {
 		font-size: 1.2em;
-		padding-top: 5px;
+		padding-top: .3em;
 	}
 
 	input[type=text] {
-		border-radius: 2px;
+		border-radius: .3em;
 	}
 
 	.share-list img {
@@ -121,7 +100,7 @@
 	}
 
 	.pictures {
-		border-radius: 2px;
+		border-radius: .3em;
 	}
 
 	.products {
@@ -130,48 +109,33 @@
 
 	.product-image {
 		width: 170px;
-		margin-top: 20px;
+		margin-top: 1em;
 	}
 
 	.product-container {
-		margin: 5px 0px;
-		border-radius: 2px;
+		margin: .4em 0;
+		border-radius: .3em;
 	}
 
 	/* fake carousel */
 	.next, .previous {
-		padding-bottom: 60px;
+		padding-bottom: 3.5em;
 		width: 30px;
 	}
 
 	.towel-pic {
 		width: 150px;
-		margin: 0px 10px;
+		margin: 0 .3em;
 	}
 	/* end fake carousel */
 
+	.item-details {
+		width: 9em;
+		margin-top: 1.4em;
+	}
+
 	.numbers {
 		font-size: 1.3em;
-	}
-
-	.delete, .buy {
-		font-size: .9em;
-	}
-
-	.delete {
-		padding: 8%;
-	}
-
-	.buy {
-		padding: 8% 13%;
-	}
-
-	.add-item-form {
-		margin-top: 5px;
-	}
-
-	.instructions {
-		margin: 20px auto 0px auto;
 	}
 
 }
