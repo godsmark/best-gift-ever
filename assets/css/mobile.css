@@ -6,17 +6,11 @@
 	}
 
 	.item-details {
-		width: 9em;
 		margin-top: 3em;
 	}
 }
 
 @media only screen and (max-width: 950px) {
-	h1 {
-		font-size: 3em;
-		padding-top: 1em;
-	}
-
 	.list-name-form {
 		width: 100%;
 	}
@@ -29,6 +23,10 @@
 		width: 200px;
 	}
 
+	.item-details {
+		margin-top: 2em;
+	}
+
 	.item-name {
 		font-size: 1.1em;
 	}
@@ -39,6 +37,10 @@
 
 	.price {
 		font-size: 1em;
+	}
+
+	.instructions-edit {
+		padding-left: .2em;
 	}
 
 	/* fake carousel */
@@ -71,11 +73,19 @@
 	.instructions {
 		margin: 6% 0% 3% 1%;
 	}
+
+	.item-details {
+		margin-top: 1em;
+	}
 }
 
 @media only screen and (max-width: 550px) {
 	h1 {
-		font-size: 2em;
+		font-size: 2.5em;
+	}
+
+	.index-form {
+		padding-top: 3em;
 	}
 
 	h2 {
