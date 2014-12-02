@@ -50,7 +50,7 @@ input:focus {
 	margin-top: .7em;
 }
 
-input[type=text] {
+input[type=text], input[type=password] {
 	font-size: 1em;
 	font-family: 'Roboto', sans-serif;
 	border-radius: 10px;
