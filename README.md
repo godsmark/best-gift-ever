@@ -1,4 +1,6 @@
-gift-it
+Gift Exchange Application
 =======
+
+
 
 

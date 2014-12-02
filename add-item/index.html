@@ -6,7 +6,7 @@
     <title>Gift it - Add Item</title>
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="../assets/css/mobile.css">
+
   </head>
   <body>
 
@@ -33,10 +33,12 @@
 
         <form action="../list/index.html" class="add-item-form">
           <fieldset>
-            <input type="text" name="item-name-form" id="item-name-form" class="item-name-form" placeholder="Item Name">
+            <label for="item-name-form" id="item">List Name</label>
+            <input type="text" id="item-name-form" class="item-name-form" placeholder="Item Name">
           </fieldset>
           <fieldset>
-            <input type="text" name="price-form" id="price-form" class="price-form" placeholder="Price">
+            <label for="price-form" id="price-name">Price</label>
+            <input type="text" id="price-form" class="price-form" placeholder="Price">
           </fieldset>
           <fieldset class="submit-container">
             <input type="submit" value="Add" class="submit">

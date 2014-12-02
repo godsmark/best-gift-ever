@@ -6,7 +6,6 @@
     <title>Gift it - Sign In</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/mobile.css">
   </head>
   <body>
     <div class="container">
@@ -16,8 +15,10 @@
       <main>
           <form action="list-name/index.html" class="index-form">
             <fieldset> 
-              <input type="text" class="list-name-form username" placeholder="Username">
-              <input type="password" class="list-name-form password" placeholder="Password">
+              <label for="username" id="user">Username</label>
+              <input type="text" id="username" class="list-name-form" placeholder="Username">
+              <label for="password" id="pass">Password</label>
+              <input type="password" id="password" class="list-name-form password" placeholder="Password">
             </fieldset>
             <fieldset class="submit-container">
               <input type="submit" value="New User" class="submit2">
